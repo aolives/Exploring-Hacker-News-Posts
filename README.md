@@ -8,7 +8,7 @@ Hacker News is a site started by the startup incubator Y Combinator, where user-
 
 You can find the data set [here](https://www.kaggle.com/hacker-news/hacker-news-posts), but note that it has been reduced from almost 300,000 rows to approximately 20,000 rows by removing all submissions that did not receive any comments, and then randomly sampling from the remaining submissions. Below are descriptions of the columns:
 
-- id: The unique identifier from Hacker News for the post
+- id — The unique identifier from Hacker News for the post
 - title — The title of the post
 - url — The URL that the posts links to, if it the post has a URL
 - num_points — The number of points the post acquired, calculated as the total number of upvotes minus the total number of downvotes
